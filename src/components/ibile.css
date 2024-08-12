@@ -1,0 +1,76 @@
+.ibile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;    
+}
+.line1{
+    font-family: Optima; 
+    font-size: 30px;
+    color: #f7803c;
+}
+.line2{
+    font-family: "Lucida Calligraphy";
+    font-size: 36px;
+}
+.underline{
+    width: 80%;
+    background-color: #f7803c;
+    height: 4px;   
+}
+.text{
+    line-height: 2;
+    font-size: 17px;
+    color: rgb(149, 149, 149);
+}
+.paragraph{
+    margin-top: 25px;
+    font-family: Lato, sans-serif;
+}
+.underline2{
+    width: 95%;
+    background-color: rgb(149, 149, 149);;
+    height: 1px;
+    margin-top: 30px;   
+}
+h1{
+    font-family: Lato;
+    font-weight: 100;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    padding: 38px;
+    border-radius: 50%;
+    background-color: #88e279;
+    color: white;
+}
+.icon:hover{
+    background-color: #f7803c;
+ 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 28px;
+    transition: transform 0.5s;
+}
+.container:hover{
+    transform: scale(1.2)
+}
+.underline3{
+    width: 80%;
+    background-color: #de7436;
+    height: 2px;
+    margin-bottom: 20px;   
+}
